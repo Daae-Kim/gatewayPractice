@@ -6,14 +6,32 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-# Gradle build output
+
+# Gradle
+.gradle/
 build/
+gradle/
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar  # 선택: 포함하려면
+
+# Build output
 out/
 target/
 
 # IntelliJ
 .idea/
 *.iml
+*.iws
+*.ipr
 
 # macOS
 .DS_Store
+
+# Spring Boot
+HELP.md
+
+# 로그 파일
+*.log
+```
+
